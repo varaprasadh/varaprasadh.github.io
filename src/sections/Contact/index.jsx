@@ -85,14 +85,20 @@ function Form(){
 
     async function submit(){
         const errLength = Object.values(errors).filter(i=>i!==null).length;
-        if(errLength){
-            return
-        }
+
         const data = {
             name: name.trim(),
             email: email.trim(),
             message: message.trim()
         };
+
+        if(!!!data.name || !!!data.email || !!!data.message){
+            return;
+        }
+        if(errLength){
+            return
+        }
+
 
         setSending(true);
 
