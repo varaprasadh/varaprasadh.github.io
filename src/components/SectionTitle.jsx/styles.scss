@@ -1,0 +1,15 @@
+.title-wrapper{
+    font-family: "poppins",sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: fit-content;
+    .title{
+        display: flex;
+        align-items: center;
+        .title-icon{
+            display: flex;
+            align-items: center;
+            margin-right: 0.25em;
+        }
+    }
+}

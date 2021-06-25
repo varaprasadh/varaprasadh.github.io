@@ -1,0 +1,169 @@
+.contact-container{
+    background-color: rgb(46, 45, 45);
+    padding: 1em;
+    font-family: "poppins",sans-serif;
+    color: white;
+    .contact-container-inner{
+        display: flex;
+        margin-top: 1em;
+        justify-content: center;
+        @media screen and (max-width:1000px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .divider{
+            color: white;
+            margin: 1em;
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            &::before,
+            &::after
+            {
+                
+                content: '';
+                display: block;
+                top:0px;
+                left:50%;
+                margin: auto;
+                height: 30%;
+                width: 2px;
+                background: white;
+            }
+        }
+    }
+}
+.social-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 400px;
+    margin-top: 0.5em;
+}
+.social-item{
+     font-size: 1.2em;
+     color: white;
+     text-decoration: none;
+     background: black;
+     padding: 0.5em 1em;
+     border-radius: 0.3em;
+     position: relative;
+     display: block;
+     overflow: hidden;
+     margin: 0.2em;
+    .social-item-inner{
+        display: flex;
+        align-items: center;
+        .social-item-icon{
+            display: flex;
+            align-items: center;
+        }
+    }
+    &::before{
+        content: "";
+        position:absolute;
+        top:-10px;
+        left:-20px;
+        width: 10px;
+        height: 130%;
+        background: white;
+        transform: rotate(20deg);
+        transition: all 0.5s linear;
+    }
+    &:hover::before{
+        left:110%;
+    }
+}
+.form-wrapper{
+    padding: 0.5em 1em;
+    background: rgb(37, 37, 37);
+    width: fit-content;
+    color: white;
+    .form-header{
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        span{
+            margin-left: 0.5em;
+        }
+    }
+    .actions {
+        display: flex;
+        justify-content: flex-end;
+        .action{
+            padding: 0.2em 1em;
+            background: rgb(0, 102, 235);
+            display: flex;
+            align-items: center;
+            border-radius: 0.2em;
+            transition: transform 0.5s ease;
+            cursor: pointer;
+            &:active{
+                transform: scale(0.8);
+            }
+            .action-icon{
+                display: flex;
+                align-items: center;
+            }
+            .action-title{
+                margin-right: 0.5em;
+            }
+        }
+    }
+    .input-wrapper{
+        .label{
+            margin: 0.5em 0em;
+        }
+        .error-message{
+            color: tomato;
+        }
+        input,textarea{
+            color: white;
+            outline: none;
+            border: none;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0.5em;
+            font-size: 1.2em;
+            font-family: "poppins",sans-serif;
+            background: rgb(68, 68, 68);
+            &:-webkit-autofill,
+            &:-webkit-autofill:hover, 
+            &:-webkit-autofill:focus, 
+            &:-webkit-autofill:active
+            {
+                -webkit-text-fill-color: white !important;
+                -webkit-box-shadow: 0 0 0 30px rgb(68, 68, 68) inset !important;
+            }
+        }
+    }
+}
+
+.contact-block.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    .contact-right-sub-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        .address-content{
+            padding: 0.5em;
+        }
+
+    }
+}
+
+.rotation > *{
+    animation: rotate 1s linear infinite;
+}
+    @keyframes rotate {
+        to{
+            transform: rotate(360deg);
+        }
+    }
+.contact-block.left{
+    display: flex;
+    align-items: center;
+}
