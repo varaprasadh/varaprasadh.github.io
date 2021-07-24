@@ -13,7 +13,8 @@ import doge from "./assets/images/doge.png";
 
 const resume = {
   v1: "https://drive.google.com/file/d/1Zq4KWFymRa8sGOVAK0gXCyWDwUQ6NSjC/view?usp=sharing",
-  v2: "https://drive.google.com/file/d/1gB1b09IXolQmY9QuVk2ntMnDyoXCmeQq/view?usp=sharing"
+  v2: "https://drive.google.com/file/d/1gB1b09IXolQmY9QuVk2ntMnDyoXCmeQq/view?usp=sharing",
+  v3: "https://drive.google.com/file/d/1IkJKxmY__z95Q5uX-NWVgMTvnJAs8GII/view?usp=sharing"
 };
 
 function Home(){
@@ -70,7 +71,7 @@ function Home(){
           <a href="#about" ref={button1} aria-label="know more" className="button more">Know More</a>
           <a
             target="_blank" rel="noopener noreferrer"
-            href={resume.v2}
+            href={resume.v3}
             ref={button2} aria-label="view cv" className="button cv">View CV</a>
         </div>
       </div>
