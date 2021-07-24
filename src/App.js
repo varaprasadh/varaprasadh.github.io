@@ -63,7 +63,7 @@ function Home(){
         </div>
         <div className="info" aria-label="information">
             <div className="info-inner" ref={info}>
-                Fullstack Engineer, <br /> Experienced in developing usable apps solely.
+                Fullstack Engineer, <br /> I Make WEB Apps | Browser Extensions.
             </div>
         </div>
         <div className="buttons">
@@ -171,7 +171,7 @@ function NavMenuIcon(){
                 <div data-link="projects" onClick={handleClick} className="menu-option-inner" ref={menuOption2}>Projects</div>
               </div>
               <div className="menu-option" >
-                <div data-link="skills" onClick={handleClick} className="menu-option-inner" ref={menuOption3}>Skills&amp;Services</div>
+                <div data-link="skills" onClick={handleClick} className="menu-option-inner" ref={menuOption3}>Skills</div>
               </div>
               <div className="menu-option" >
                 <div data-link="blogs" onClick={handleClick} className="menu-option-inner" ref={menuOption4}>Blogs</div>

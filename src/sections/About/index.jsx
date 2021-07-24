@@ -17,7 +17,7 @@ function About() {
                            </div>
                            <div className="bio-content">
                                <div className="bio-content-inner">
-                                   👋 Hi,I'm Junior Fullstack Engineer, Learning something new day by day.
+                                   👋 Hi, I'm Fullstack Engineer, Learning something new day by day.
                                    passionate about <strong>Technology</strong> since childhood, grown up watching 
                                   &nbsp;<strong>SCI-FI Movies and Cartoons.</strong> 
                                   <br/>
@@ -47,9 +47,9 @@ function Timeline(props){
     function TimelineItem(props){
         return (
                 <li className="row timeline-item">
-                    <h3 className="timeline-item-title">
+                    <h4 className="timeline-item-title">
                         {props.eventTitle}
-                    </h3>
+                    </h4>
                     <div className="timeline-item-selector">
                     </div>
                     <div className="timeline-item-date">
@@ -72,7 +72,7 @@ function Timeline(props){
 
 var data = [
 	{
-		eventTitle: "Leet Coding & Learning",
+		eventTitle: "Leet Coding & Building side projects",
 		eventDate: "May 2021"
 	},
 	{
@@ -80,16 +80,20 @@ var data = [
 		eventDate: "October 2020"
 	},
 	{
-		eventTitle: "B.Tech in Computer Science",
+		eventTitle: "Completed B.Tech in CSE",
 		eventDate: "September 2020"
 	},
     {
-		eventTitle: "Part Time Freelancing",
+		eventTitle: "Part Time Freelancer", 
 		eventDate: "June 2019"
 	},
 	{
 		eventTitle: "Trainee Web Engineer at VSH Solutions",
 		eventDate: "May 2019"
+	},
+    {
+		eventTitle: "Switched to Computer Science in B.Tech",
+		eventDate: "August 2017"
 	},
 	{
 		eventTitle: "Diploma in Mechanical Engg.",
