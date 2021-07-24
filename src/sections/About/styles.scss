@@ -42,12 +42,13 @@
     }
     .bio-container{
         padding: 1em;
-        line-height: 1.8em;
+        line-height: 2em;
         .name{
             font-size: 2em;
         }
         .bio-content{
             padding: 1em 1em 1em 0;
+            font-weight: 500;
         }
     }
 }
