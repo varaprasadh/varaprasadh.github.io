@@ -13,7 +13,7 @@ import doge from "./assets/images/doge.png";
 
 const resume = {
   v1: "https://drive.google.com/file/d/1Zq4KWFymRa8sGOVAK0gXCyWDwUQ6NSjC/view?usp=sharing",
-  v2: "https://drive.google.com/file/d/187cQxFHnUZxajh0yuWM1QB4Q4bX5ops4/view?usp=sharing"
+  v2: "https://drive.google.com/file/d/1gB1b09IXolQmY9QuVk2ntMnDyoXCmeQq/view?usp=sharing"
 };
 
 function Home(){
