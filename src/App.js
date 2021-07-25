@@ -15,7 +15,7 @@ const resume = {
   v1: "https://drive.google.com/file/d/1Zq4KWFymRa8sGOVAK0gXCyWDwUQ6NSjC/view?usp=sharing",
   v2: "https://drive.google.com/file/d/1gB1b09IXolQmY9QuVk2ntMnDyoXCmeQq/view?usp=sharing",
   v3: "https://drive.google.com/file/d/1IkJKxmY__z95Q5uX-NWVgMTvnJAs8GII/view?usp=sharing",
-  v4: "https://drive.google.com/file/d/14ol6AFL8GaC6ffrQjzL2Tv39G7To42yH/view?usp=sharing"
+  v4: "https://drive.google.com/file/d/1WsJoM5Kq87cUkZnRXJOkpkzINyhhsYVv/view?usp=sharing"
 };
 
 function Home(){
