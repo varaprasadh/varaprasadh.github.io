@@ -17,7 +17,8 @@ const resume = {
   v3: "https://drive.google.com/file/d/1IkJKxmY__z95Q5uX-NWVgMTvnJAs8GII/view?usp=sharing",
   v4: "https://drive.google.com/file/d/1WsJoM5Kq87cUkZnRXJOkpkzINyhhsYVv/view?usp=sharing",
   v5: "https://drive.google.com/file/d/19ljIepjRfktzlh2dDzJkKMlD9WstlkiB/view?usp=sharing",
-  current: function(){ return this.v5 }
+  v6: "https://drive.google.com/file/d/1XxbXx0ECtTuwX8ByNsfuzw-GVJ3xkJ_i/view?usp=sharing",
+  current: function(){ return this.v6 }
 };
 
 
