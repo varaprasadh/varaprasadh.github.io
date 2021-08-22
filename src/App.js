@@ -154,7 +154,7 @@ function NavMenuIcon(){
         a.href = link;
         a.target = "_blank";
         a.click();
-
+        return;
       }
       window.location.hash = `#${link}`;
       const element=document.getElementById(link);
