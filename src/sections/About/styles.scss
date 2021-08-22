@@ -3,6 +3,8 @@
     padding: 2em;
     font-family: "poppins";
     color: white;
+        text-align: center;
+
     .about-container-inner{
         display: flex;
         justify-content: center;
@@ -19,10 +21,11 @@
         display: flex;
         align-self: center;
         flex-direction: column;
-        max-width: 600px;
+        // padding: 2rem 4rem;
+        max-width: 800px;
         .picture{
             max-width: 300px;
-            align-self: flex-start;
+            margin: auto;
             overflow: hidden;
             border-radius: 50%;
             img{
@@ -51,81 +54,4 @@
             font-weight: 500;
         }
     }
-}
-// timeline styles 
-
-.timeline {
-  min-height: 100px;
-  position: relative;
-  padding: 40px 20px;
-}
-.timeline:before,
-.timeline:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  tranform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  background: #a6a7a8;
-}
-.timeline:before {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-}
-.timeline:after {
-  bottom: 0;
-  width: 2px;
-}
-.timeline-item {
-  width: 100%;
-  font-size: 0.9rem;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex-flow: row nowrap;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-}
-.timeline-item > * {
-  -webkit-flex: 100px;
-  -ms-flex: 100px;
-  flex: 100px;
-}
-.timeline-item:last-child:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  background: #a6a7a8;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-}
-.timeline-item-title {
-  text-align: right;
-  color: #00fff2;
-}
-.timeline-item-date {
-  color: #b3b3b3;
-}
-.timeline-item-selector {
-  -webkit-flex: 0 0 6px;
-  -ms-flex: 0 0 6px;
-  flex: 0 0 6px;
-  padding: 6px;
-  border: 1px solid #4c4c4d;
-  border-radius: 50%;
-  margin: 0px 20px;
-  background: #fff;
-  z-index: 2;
 }

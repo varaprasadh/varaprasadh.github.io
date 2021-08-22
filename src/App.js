@@ -144,11 +144,18 @@ function NavMenuIcon(){
   }, [open]);
 
   function handleClick(e){
-    const { link, router } = e.target.dataset;
+    const { link, router, open } = e.target.dataset;
     timeline.current.reverse();
     if(router){
       // push react router
     }else{
+      if(open){
+        const a = document.createElement('a');
+        a.href = link;
+        a.target = "_blank";
+        a.click();
+
+      }
       window.location.hash = `#${link}`;
       const element=document.getElementById(link);
       if(element){
@@ -181,7 +188,7 @@ function NavMenuIcon(){
                 <div data-link="skills" onClick={handleClick} className="menu-option-inner" ref={menuOption3}>Skills</div>
               </div>
               <div className="menu-option" >
-                <div data-link="blogs" onClick={handleClick} className="menu-option-inner" ref={menuOption4}>Blogs</div>
+                <div data-open data-link="https://blogs.varaprasadh.dev" onClick={handleClick} className="menu-option-inner" ref={menuOption4}>Blogs</div>
               </div>
               <div className="menu-option" >
                 <div data-link="contact" onClick={handleClick} className="menu-option-inner" ref={menuOption5}>Contact</div>

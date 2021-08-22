@@ -1,7 +1,7 @@
 .skills-container{
     padding: 1em;
-    background: rgb(48, 48, 48);
-    color: white;
+    // background: rgb(48, 48, 48);
+    // color: white;
     display: flex;
     flex-direction: column;
     // overflow-x: hidden;
@@ -31,5 +31,7 @@
         background: rgb(22, 22, 22);
         border-radius: 0.3em;
         margin: 0.2em;
+        color: white;
+
     }
 }

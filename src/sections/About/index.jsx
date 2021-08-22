@@ -35,76 +35,10 @@ function About() {
                        </div>
                    </div>
                </div>
-               <div className="about-block right-timeline">
-                   <Timeline eventData={data} />
-               </div>
+
            </div>
         </div>
     )
 }
-
-function Timeline(props){
-    function TimelineItem(props){
-        return (
-                <li className="row timeline-item">
-                    <h4 className="timeline-item-title">
-                        {props.eventTitle}
-                    </h4>
-                    <div className="timeline-item-selector">
-                    </div>
-                    <div className="timeline-item-date">
-                        {props.eventDate}
-                    </div>
-                </li>
-            );
-    }
-		var items = props.eventData.map(function(item, index) {
-		 	return (
-		 		<TimelineItem key={index} eventTitle={item.eventTitle} eventDate={item.eventDate} />
-		 	);
-		 });
-		return (
-			<ul className="timeline">
-		 		{items}
-			</ul>
-		);
-}
-
-var data = [
-	{
-		eventTitle: "Leet Coding & Building side projects",
-		eventDate: "May 2021"
-	},
-	{
-		eventTitle: "Software Engineer, VSH Solutions",
-		eventDate: "October 2020"
-	},
-	{
-		eventTitle: "Completed B.Tech in CSE",
-		eventDate: "September 2020"
-	},
-    {
-		eventTitle: "Part Time Freelancer", 
-		eventDate: "June 2019"
-	},
-	{
-		eventTitle: "Trainee Web Engineer at VSH Solutions",
-		eventDate: "May 2019"
-	},
-    {
-		eventTitle: "Switched to Computer Science in B.Tech",
-		eventDate: "August 2017"
-	},
-	{
-		eventTitle: "Diploma in Mechanical Engg.",
-		eventDate: "2017"
-	},
-	{
-		eventTitle: "Secondary Education",
-		eventDate: "2014"
-	}
-]
-
-
 
 export default About;
