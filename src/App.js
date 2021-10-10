@@ -75,10 +75,11 @@ function Home(){
         </div>
         <div className="buttons">
           <a href="#about" ref={button1} aria-label="know more" className="button more">Know More</a>
-          <a
+          {/* <a
             target="_blank" rel="noopener noreferrer"
             href={resume.current()}
             ref={button2} aria-label="view cv" className="button cv">View CV</a>
+        */}
         </div>
       </div>
     </section>
