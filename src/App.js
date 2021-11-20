@@ -270,9 +270,9 @@ function App() {
       <div className="thanks-section">
         <div className="centered-div">
           <div className="doge-image-container">
-            <img src={doge} alt="doge"/>
+            <img style={{width:'15rem'}} src={doge} alt="doge"/>
           </div>
-          <div className="message">Thanks for visiting the site</div>
+          <div className="message">Thank you!!!</div>
         </div>
       </div>
       <Footer/>

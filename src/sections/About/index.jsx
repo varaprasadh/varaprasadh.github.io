@@ -17,19 +17,27 @@ function About() {
                            </div>
                            <div className="bio-content">
                                <div className="bio-content-inner">
-                                   👋 Hi, I'm Fullstack Engineer, Learning something new day by day.
-                                   passionate about <strong>Technology</strong> since childhood, grown up watching 
-                                  &nbsp;<strong>SCI-FI Movies and Cartoons.</strong> 
-                                  <br/>
-                                  <br/>
-                                  <strong>Internet is my university 🏫</strong> <br/>
-                                  Time never waits, and i too, i will do <strong>google</strong> or <strong>Stackoverflow</strong> 
-                                  <br/>
-                                  I used to do small freelance project when i was in college final year. in that process,i learned so many things, best practices, clean code ..etc <br/>
-                                  i understood <strong>how not to do!</strong> is more important than <strong>how to do!</strong> 
-                                  <br/>
-                                  <br/>
-                                  <strong> 🚦 Greatness is coming...</strong>
+                                    Hi! I'm a self-taught software engineer. <br/>
+                                    I love to learn about internals of systems and build them.
+                                    <ul>
+                                        <li>
+                                            <h3>what i do/did,</h3>
+                                            <ul>
+                                                <li>Built mobile/desktop/web apps, browser extensions, ...more, </li>
+                                                <li>working as Software Engineer at <i>Imaginnovate</i></li>
+                                                <li>freelanced in the past.</li>
+                                                <li>watches anime in the free time.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <h3>my key take away(s)</h3>
+                                            <ul>
+                                                <li>I say language is not barrier unless it changes <strong>semantics of syntax.</strong></li>
+                                                <li>best way to get started is 'get started'</li>
+                                                <li>never wait for someone to teach you</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                </div>
                            </div>
                        </div>
